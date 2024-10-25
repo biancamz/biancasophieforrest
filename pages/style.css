@@ -1,21 +1,46 @@
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f3f2ee;
 }
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #f4f0d8;
     color: black;
     line-height: 1.6;
+    padding: 15px;
+    margin:15px
 }
 
 h1{
-    font-family: 'cursive';
-    color: red;
+    font-family:'Franklin Gothic Medium', sans-serif;
+    color: rgb(128, 15, 15);
 }
 
-table, th, td {
-    border: 1px solid black;
-  }
+
+.table {
+    margin: 20px 0; 
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid blue; 
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e0e0e0; }
+
+#list {
+    padding: 10%;
+    margin-left: 50px;
+}
+
