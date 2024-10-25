@@ -16,8 +16,8 @@ body {
 }
 
 h1{
-    font-family:'Franklin Gothic Medium', sans-serif;
-    color: rgb(128, 15, 15);
+    font-family:'Gill Sans', sans-serif;
+    color: rgb(158, 19, 19);
 }
 
 
@@ -36,11 +36,9 @@ th, td {
     text-align: left;
 }
 
-th {
-    background-color: #e0e0e0; }
 
 #list {
-    padding: 10%;
-    margin-left: 50px;
+    padding: 10%, yellow;
+    margin-left: 10px;
 }
 
