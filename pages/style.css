@@ -16,7 +16,7 @@ body {
 }
 
 h1{
-    font-family:'Gill Sans', sans-serif;
+    font-family:'Segoe UI', Tahoma, sans-serif;
     color: rgb(158, 19, 19);
 }
 
@@ -52,12 +52,13 @@ ul {
   }
   
   li {
+    list-style-type: none;
     float: left;
   }
   
   li a {
     display: block;
-    color: white;
+    color: blue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
