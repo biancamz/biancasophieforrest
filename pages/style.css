@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #f3f2ee;
+    border-color: yellow;
 }
 
 body {
@@ -65,5 +66,5 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: whitesmoke;
   }
