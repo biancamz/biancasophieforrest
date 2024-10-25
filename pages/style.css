@@ -5,7 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #f3f2ee;
+    border: 20px;
     border-color: yellow;
+
 }
 
 body {
@@ -22,7 +24,7 @@ h1{
 }
 
 
-.table {
+#table {
     margin: 20px 0; 
 }
 
@@ -43,7 +45,7 @@ th, td {
     margin-left: 10px;
 }
 
-.navigation
+#navigation
 ul {
     list-style-type: none;
     margin: 0;
@@ -66,5 +68,5 @@ ul {
   }
   
   li a:hover {
-    background-color: whitesmoke;
+    background-color: blue;
   }
