@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f3f2ee;    
+    background-color: #f3f2ee;
+    border: 5px solid yellow;
+    
 
 }
 
