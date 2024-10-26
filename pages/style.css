@@ -1,107 +1,76 @@
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f3f2ee;
-    
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f3f2ee;
+    color: #333;
     line-height: 1.6;
-    padding: 15px;
-    margin:15px;
-    
+    padding: 20px;
 }
 
-
-h1{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h1 {
+    font-family:'Gill Sans', sans-serif;
     color: rgb(12, 12, 190);
-}
-
-
-.table {
-    margin: 20px 0; 
-}
-
-table {
-    width: 100%; 
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid blue; 
-    padding: 10px;
-    text-align: left;
-}
-
-
-.list {
-    padding: 10%;
-    margin-left: 10px;
-}
-
-.navigation 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display:block;
-    background-color: #333;
-  }
-  
-li {
-    list-style-type: none;
-    float: left;
-  }
-  
-li a {
-    display: block;
-    color: rgb(174, 30, 30);
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-li a:hover {
-    color: #666;
-  }
-
-
-.contact-us
-  header {
-    background: #007BFF;
-    color: #fff;
-    padding: 15px 20px;
-    text-align: center;
-    border-radius: 5px;
     margin-bottom: 20px;
 }
 
-h2 {
-    font-size: 2em;
+#navigation 
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: rgb(174, 30, 30);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+#home_body {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+h2, h3, h4 {
+    color: rgb(16, 16, 193);
     margin-bottom: 10px;
 }
 
 h3 {
     font-size: 1.5em;
-    margin: 20px 0 10px;
-    color: #007BFF;
 }
 
 h4 {
     font-size: 1.2em;
-    margin: 15px 0 5px;
 }
 
 p {
     margin: 10px 0;
-    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
 }
 
 ul {
@@ -111,32 +80,21 @@ ul {
 
 li {
     margin: 10px 0;
-    background: #e9ecef;
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
-}
-
-li em {
-    font-weight: bold;
-}
-
-#mission, #what\ we\ offer, #contact\ us {
-    background: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
 }
 
 footer {
     text-align: center;
     margin-top: 20px;
     font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin: 5px 0;
+    }
 }
