@@ -19,7 +19,7 @@ body {
 
 
 h1{
-    font-family: 'Brush Script MT', cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(12, 12, 190);
 }
 
@@ -73,10 +73,70 @@ li a:hover {
   }
 
 
-.home_body 
-    body {
-        background-image: url("img/paul-naslund-roxborough-1920x600-1-1024x320.jpg");
-        background-color: #cccccc;
-      }
+.contact-us
+  header {
+    background: #007BFF;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
 
-      
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 20px 0 10px;
+    color: #007BFF;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin: 15px 0 5px;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 10px 0;
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+#mission, #what\ we\ offer, #contact\ us {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
