@@ -17,12 +17,9 @@ body {
     
 }
 
-header{
-    font-family: cursive;
-}
 
 h1{
-    font-family:'Segoe UI', Tahoma, sans-serif;
+    font-family: 'Brush Script MT', cursive;
     color: rgb(12, 12, 190);
 }
 
