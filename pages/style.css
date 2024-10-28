@@ -18,106 +18,7 @@ body {
 }
 
 
-.bottom {
-<<<<<<< HEAD
-    background-image: url("../img/hands.jpg"); 
-=======
-    background-image: url("../img/music-sheet-3.jpg"); 
->>>>>>> bianca_branch
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center; 
-    height: 50%; 
-    width: 50%;
-    z-index: 1;
-    position:absolute;
-    
 
-}
-<<<<<<< HEAD
-
-.middle {
-    background-image: url("../img/music-sheet-2.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: top; 
-    height: 50%; 
-    top: 20px;
-    right: 0px;
-    z-index: 1;
-
-=======
->>>>>>> bianca_branch
-    
-
-
-.hands {
-<<<<<<< HEAD
-    background-image: url("../img/music-sheet-cartoon.jpg");
-=======
-    background-image: url("../img/hands.jpg");
->>>>>>> bianca_branch
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 50%;
-    width: 50%;
-    bottom:0px;
-    left:0px;
-    z-index: 1;
-    position:absolute;
-    
-}
-
-.musicsheet {
-    background-image: url("../img/music-sheet-4.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 50%;
-    width: 50%;
-    bottom:0px;
-    left:0px;
-    z-index: 1;
-    position:absolute;
-    
-}
-
-.sheet {
-    background-image: url("../img/music-sheet-cartoon.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 50%;
-    width: 50%;
-    bottom:0px;
-    left:0px;
-    z-index: 1;
-    position:absolute;
-    
-}
-
-.image {
-    background-image: url("../img/music-sheet-3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 50%;
-    bottom:0px;
-    left:0px;
-    z-index: 1;
-}
-
-.image2 {
-    background-image: url("../img/music-sheet-4.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 50%;
-    bottom:0px;
-    left:0px;
-    z-index: 1;
-}
 
 #header{
     font-family:'Gill Sans', sans-serif;
@@ -246,3 +147,58 @@ table th, td {
         margin: 5px 0;
     }
 }
+
+/* .bottom {
+    background-image: url("../img/music-sheet-3.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 50%; 
+    width: 50%;
+    z-index: 1;
+    position:absolute;
+    
+
+}
+
+
+.sheet {
+    background-image: url("../img/music-sheet-2.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: top; 
+    height: 50%; 
+    top: 20px;
+    right: 0px;
+    z-index: 1;
+}
+
+
+.hands {
+    background-image: url("../img/music-sheet-cartoon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 50%;
+    width: 50%;
+    bottom:0px;
+    left:0px;
+    z-index: 1;
+    position:relative;
+    
+}
+
+.musicsheet {
+    background-image: url("../img/music-sheet-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 50%;
+    width: 50%;
+    bottom:0px;
+    left:0px;
+    z-index: 1;
+    position:relative;
+    
+}
+    */

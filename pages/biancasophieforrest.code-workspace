@@ -1,16 +1,9 @@
 {
-<<<<<<< HEAD
 	"folders": [
 		{
 			"path": ".."
 		}
 	],
 	"settings": {}
-=======
-    "folders": [
-        {
-            "path": ".."
-        }
-    ]
->>>>>>> bianca_branch
+
 }
