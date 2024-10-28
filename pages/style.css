@@ -35,6 +35,7 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    background-color: bisque;
 }
 
 nav li {
@@ -103,7 +104,7 @@ li em {
 }
 
 
-#about, #mission, #what\ we\ offer, #contact\ us {
+#about, #mission, #what\ we\ offer, #contact{
     background: #fff;
     padding: 20px;
     padding: 15px;
