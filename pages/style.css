@@ -21,7 +21,7 @@ body {
 }
 
 .bottom {
-    background-image: url('../img/cartoon.jpg'); 
+    background-image: url("../img/dancers.jpg"); 
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center; 
@@ -32,7 +32,7 @@ body {
 }
 
 .middle {
-    background-image: url('../img/musicsheet.jpg');
+    background-image: url("../img/dots.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: top; 
@@ -46,7 +46,7 @@ body {
 }
 
 .hands {
-    background-image: url("../img/hands.jpg");
+    background-image: url("../img/music\ sheet\ cartoon.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
