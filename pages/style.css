@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 rgb(240, 240, 111);
     padding: 0;
     box-sizing: border-box;
 }
@@ -44,8 +44,8 @@ nav li {
 }
 
 nav a {
-    font-size: 20;
-    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size: 20px;
+    font-family:Georgia, serif;
     color: rgb(174, 30, 30);
     text-decoration: none;
     transition: color 0.3s;
@@ -202,8 +202,8 @@ table th, td {
     */
 
 #section1{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
     text-align: center;
     background-color: rgb(247, 241, 174);
 }   
