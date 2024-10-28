@@ -43,6 +43,8 @@ nav li {
 }
 
 nav a {
+    font-size: 20;
+    font-family: 'Courier New', Courier, monospace;
     color: rgb(174, 30, 30);
     text-decoration: none;
     transition: color 0.3s;
@@ -101,7 +103,7 @@ li em {
 }
 
 
-#mission, #what\ we\ offer, #contact\ us {
+#about, #mission, #what\ we\ offer, #contact\ us {
     background: #fff;
     padding: 20px;
     padding: 15px;
@@ -197,3 +199,8 @@ table th, td {
     
 }
     */
+
+#section1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10;
+}   
