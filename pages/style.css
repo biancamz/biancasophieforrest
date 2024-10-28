@@ -45,7 +45,7 @@ nav li {
 
 nav a {
     font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia, serif;
     color: rgb(174, 30, 30);
     text-decoration: none;
     transition: color 0.3s;
@@ -121,7 +121,6 @@ footer {
     margin-top: 20px;
     font-size: 0.9em;
 }
-
 
 
 
@@ -202,8 +201,8 @@ table th, td {
     */
 
 #section1{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
     text-align: center;
     background-color: rgb(247, 241, 174);
 }   
