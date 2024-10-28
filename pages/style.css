@@ -169,3 +169,7 @@ table th, td {
     padding: 10px; 
     text-align: left;
 }
+
+#header{
+    font-size: rgb(149, 22, 22), larger;
+}
