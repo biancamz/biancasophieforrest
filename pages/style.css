@@ -18,6 +18,8 @@ body {
     color: rgb(141, 20, 20);
     text-align: center;
     margin-bottom: 20px;
+    font-size: 100px;
+    font-weight: 300;
 }
 
 h1 {
@@ -116,16 +118,9 @@ footer {
     font-size: 0.9em;
 }
 
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-    }
-    nav li {
-        margin: 5px 0;
-    }
-}
 
-.background {
+
+#background {
     position: absolute;
     width: 100%; 
     height: 100%;
@@ -149,8 +144,8 @@ footer {
     background-repeat: no-repeat;
     background-position: top; 
     height: 50%; 
-    top: 20;
-    right: 0;
+    top: 20px;
+    right: 0px;
     z-index: 1;
 
     
@@ -163,8 +158,8 @@ footer {
     background-repeat: no-repeat;
     background-position: bottom;
     height: 50%;
-    bottom:0;
-    left:0;
+    bottom:0px;
+    left:0px;
     z-index: 1;
 }
 
@@ -180,3 +175,11 @@ table th, td {
     text-align: left;
 }
 
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin: 5px 0;
+    }
+}
