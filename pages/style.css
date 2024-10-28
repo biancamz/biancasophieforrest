@@ -35,7 +35,7 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    background-color: bisque;
+    background-color: rgb(234, 228, 220);
 }
 
 nav li {
@@ -45,7 +45,7 @@ nav li {
 
 nav a {
     font-size: 20;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Franklin Gothic Medium', sans-serif;
     color: rgb(174, 30, 30);
     text-decoration: none;
     transition: color 0.3s;
@@ -202,8 +202,8 @@ table th, td {
     */
 
 #section1{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
-    align-items: center;
-    background-color: rgb(251, 240, 118);
+    text-align: center;
+    background-color: rgb(247, 241, 174);
 }   
