@@ -21,7 +21,7 @@ body {
 }
 
 .bottom {
-    background-image: url("../img/dancers.jpg"); 
+    background-image: url("../img/hands.jpg"); 
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center; 
@@ -32,7 +32,7 @@ body {
 }
 
 .middle {
-    background-image: url("../img/dots.jpg");
+    background-image: url("../img/music-sheet-2.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: top; 
@@ -56,6 +56,28 @@ body {
     z-index: 1;
 }
 
+
+.image {
+    background-image: url("../img/music-sheet-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 50%;
+    bottom:0px;
+    left:0px;
+    z-index: 1;
+}
+
+.image2 {
+    background-image: url("../img/music-sheet-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 50%;
+    bottom:0px;
+    left:0px;
+    z-index: 1;
+}
 
 #header{
     font-family:'Gill Sans', sans-serif;
