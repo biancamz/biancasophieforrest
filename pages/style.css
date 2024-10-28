@@ -10,6 +10,7 @@ body {
     color: #333;
     line-height: 1.6;
     padding: 20px;
+    z-index: 1;
 }
 
 h1 {
@@ -28,6 +29,7 @@ nav ul {
 
 nav li {
     margin: 0 15px;
+
 }
 
 nav a {
@@ -84,6 +86,23 @@ li {
     border-radius: 5px;
 }
 
+li em {
+    font-weight: bold;
+}
+
+
+#mission, #what\ we\ offer, #contact\ us {
+    background: #fff;
+    padding: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+
+
+
 footer {
     text-align: center;
     margin-top: 20px;
@@ -97,4 +116,38 @@ footer {
     nav li {
         margin: 5px 0;
     }
+}
+
+.background {
+    position:absolute;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.bottomimage .sheet2{
+    background-position: top;
+}
+
+
+.bottomimage .music-sheet{
+    z-index: 0;
+    background-position: center;
+}
+
+.middleimage {
+    z-index: 0;
+    background-position: bottom;
+    
+}
+
+.scheduletable {
+    margin: 20px 0; 
+    border-style: groove;
+
+}
+
+th, td {
+    border: 1px solid blue; /* Optional: Add border to individual cells */
+    padding: 10px; /* Optional: Add padding for cell content */
+    text-align: left;
 }
