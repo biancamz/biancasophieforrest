@@ -1,7 +1,8 @@
 * {
-    margin: 2px rgb(240, 240, 111);
+    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box, yellow;
+
 }
 
 #home_body {
@@ -22,6 +23,7 @@
     margin-bottom: 20px;
     font-size: 70px;
     --parallax-speed: 10;
+    z-index: 3;
 }
 
 h1 {
@@ -45,7 +47,7 @@ nav li {
 }
 
 nav a {
-    font-size: 25 px;
+    font-size: 40 px;
     font-family:'Times New Roman', Times, serif;
     color: rgb(174, 30, 30);
     text-decoration: none;
@@ -200,43 +202,8 @@ table th, td {
 .hands{
     --parallax-speed: 20;
     z-index:1;
-}*/
-
-
-.parallax{
-    min-height: 75vh;
-    display: grid;
-    grid-template-areas: "stack";
 }
 
-.parallax > * {
-    grid-area: stack;
-    --animation: parallax linear;
-    --animation-timeline: scroll() ;
-}
 
-.parallax > * {
-    position: relative;
-    z-index: 2;
-}
 
-.parallax > img {
-    width: 100%;
-}
-
-@keyframes parallax {
-    from {
-        transform: translateY(0);
-    }
-    to {
-        transform: translateY(calc(var(--parallax-speed) * 100px));
-    }
-}
-
-.sheet3 {
-    --parallax-speed: 30;
-}
-
-.hands {
-    --parallax-speed: 20;
-}
+  
