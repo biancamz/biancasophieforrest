@@ -1,11 +1,19 @@
+html {
+    margin:0;
+    padding: 0;
+    background-color: rgb(8, 8, 90);
+}
+
 * {
     margin: 0 rgb(240, 240, 111);
     padding: 0;
-    box-sizing: border-box, yellow;
+    box-sizing: border-box;
 
 }
 
-#home_body {
+
+
+body {
     font-family:'Times New Roman', Times, serif;
     background-color: #f3f2ee;
     color: #333;
@@ -18,11 +26,10 @@
 
 #header{
     font-family:'Gill Sans', sans-serif;
-    color: rgb(165, 25, 25);
+    color: rgb(24, 77, 201);
     text-align: center;
     margin-bottom: 20px;
     font-size: 70px;
-    --parallax-speed: 10;
     z-index: 3;
 }
 
@@ -47,10 +54,9 @@ nav li {
 }
 
 nav a {
-    font-size: 20px;
-    font-family:Georgia, serif;
+    font-size: 40 px;
+    font-family:'Times New Roman', Times, serif;
     color: rgb(174, 30, 30);
-    text-decoration: none;
     transition: color 0.3s;
 }
 
