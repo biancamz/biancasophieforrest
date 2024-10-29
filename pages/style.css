@@ -107,7 +107,7 @@ li em {
 }
 
 
-#about, #mission, #what\ we\ offer, #contact{
+#about, #mission, #what\ we\ offer, #contact, #diversity{
     background: #fff;
     padding: 20px;
     padding: 15px;
@@ -161,10 +161,12 @@ table th, td {
 .mySlides {
     display: none;
     opacity: 0;
-    transition: opacity 1s ease-in-out; /* Smooth fade effect */
-  }
+    transition: opacity 1s ease-in-out; 
+    background-color: #333;
+    color:#fff;
+}
   
   .mySlides.active {
     display: block;
-    opacity: 1; /* Fully visible */
+    opacity: 1; 
   }
