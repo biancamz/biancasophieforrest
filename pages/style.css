@@ -1,10 +1,11 @@
 * {
-    margin: 2px rgb(240, 240, 111);
+    margin: 0 rgb(240, 240, 111);
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box, yellow;
+
 }
 
-body {
+#home_body {
     font-family:'Times New Roman', Times, serif;
     background-color: #f3f2ee;
     color: #333;
@@ -21,6 +22,8 @@ body {
     text-align: center;
     margin-bottom: 20px;
     font-size: 70px;
+    --parallax-speed: 10;
+    z-index: 3;
 }
 
 h1 {
@@ -44,8 +47,8 @@ nav li {
 }
 
 nav a {
-    font-size: 12px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-family:Georgia, serif;
     color: rgb(174, 30, 30);
     text-decoration: none;
     transition: color 0.3s;
@@ -55,13 +58,7 @@ nav a:hover {
     color: #fff;
 }
 
-#home_body {
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-top: 20px;
-}
+
 
 h2, h3, h4 {
     color: rgb(16, 16, 193);
@@ -145,64 +142,68 @@ table th, td {
     }
 }
 
-/* .bottom {
-    background-image: url("../img/music-sheet-3.jpg"); 
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center; 
-    height: 50%; 
-    width: 50%;
-    z-index: 1;
-    position:absolute;
-    
 
-}
-
-
-.sheet {
-    background-image: url("../img/music-sheet-2.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: top; 
-    height: 50%; 
-    top: 20px;
-    right: 0px;
-    z-index: 1;
-}
-
-
-.hands {
-    background-image: url("../img/music-sheet-cartoon.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 50%;
-    width: 50%;
-    bottom:0px;
-    left:0px;
-    z-index: 1;
-    position:relative;
-    
-}
-
-.musicsheet {
-    background-image: url("../img/music-sheet-4.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 50%;
-    width: 50%;
-    bottom:0px;
-    left:0px;
-    z-index: 1;
-    position:relative;
-    
-}
-    */
 
 #section1{
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
     background-color: rgb(247, 241, 174);
-}   
+
+}
+/*
+.gifs{
+    align-items: center;
+    position:absolute;
+}
+
+#fade-in-image{
+    opacity: 50%;
+    position:fixed;
+    border: 20px black;
+}
+
+#fade-in-image a:hover{
+    opacity: 100%;
+    transition: 1s;
+} 
+
+.parallax{
+    min-height: 75vh;
+    display: grid;
+    grid-template-areas: "stack";
+}
+
+.parallax > * {
+    grid-area: stack;
+    animation: parallax linear;
+    animation-timeline: scroll() ;
+
+}
+
+.parallax > img {
+    width: 100%;
+}
+
+@keyframes parallax {
+    to {
+        transform: 
+        translateY(calc(var(--parallax-speed) * 100px))
+
+    }
+    
+}
+
+.sheet3{
+   --parallax-speed:30;
+   z-index: 2; 
+}
+
+.hands{
+    --parallax-speed: 20;
+    z-index:1;
+}
+
+
+
+  
