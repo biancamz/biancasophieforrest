@@ -1,0 +1,215 @@
+html {
+    margin:0;
+    padding: 0;
+    background-color: rgb(8, 8, 90);
+}
+
+* {
+    margin: 0 rgb(240, 240, 111);
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f3f2ee;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px;
+    z-index: 2;
+
+}
+
+
+#header{
+    font-family:'Gill Sans', sans-serif;
+    color: rgb(24, 77, 201);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 70px;
+    z-index: 3;
+}
+
+h1 {
+    font-family:'Gill Sans', sans-serif;
+    color: rgb(12, 12, 190);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#navigation 
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(234, 228, 220);
+}
+
+nav li {
+    margin: 0 15px;
+
+}
+
+nav a {
+    font-size: 40 px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(174, 30, 30);
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+
+
+h2, h3, h4 {
+    color: rgb(16, 16, 193);
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+
+#about, #mission, #what\ we\ offer, #contact{
+    background: #fff;
+    padding: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+
+
+table {
+    width: 100%; 
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, td {
+    border: 2px solid blue; 
+    padding: 10px; 
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin: 5px 0;
+    }
+}
+
+
+
+#section1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(247, 241, 174);
+
+}
+/*
+.gifs{
+    align-items: center;
+    position:absolute;
+}
+
+#fade-in-image{
+    opacity: 50%;
+    position:fixed;
+    border: 20px black;
+}
+
+#fade-in-image a:hover{
+    opacity: 100%;
+    transition: 1s;
+} 
+
+.parallax{
+    min-height: 75vh;
+    display: grid;
+    grid-template-areas: "stack";
+}
+
+.parallax > * {
+    grid-area: stack;
+    animation: parallax linear;
+    animation-timeline: scroll() ;
+
+}
+
+.parallax > img {
+    width: 100%;
+}
+
+@keyframes parallax {
+    to {
+        transform: 
+        translateY(calc(var(--parallax-speed) * 100px))
+
+    }
+    
+}
+
+.sheet3{
+   --parallax-speed:30;
+   z-index: 2; 
+}
+
+.hands{
+    --parallax-speed: 20;
+    z-index:1;
+}
+
+
+
+  
