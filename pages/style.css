@@ -137,13 +137,20 @@ table th {
     border: none; 
     padding: 10px; 
     text-align: left;
-    font-size: 25px;}
+    font-size: 25px;
+    width: 25%;
+}
 
 table td{
         border: none; 
         padding: 10px; 
         text-align: left;
-        font-size: 18px;}
+        font-size: 18px;
+        width:25%
+    }
+table tr{
+    width: 25%;
+}
     
 
 td img
