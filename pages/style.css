@@ -99,7 +99,6 @@ ul {
 li {
     margin: 10px 0;
     padding: 15px;
-    border-style: solid;
 }
 
 li em {
@@ -166,20 +165,22 @@ td:hover img
 
 }
 
-.mySlides {
-    display: none;
-    opacity: 0;
-    transition: opacity 1s ease-in-out; 
-    color:#333;
+#showSlides {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
 }
-  
-  .mySlides.active {
-    display: block;
-    opacity: 1; 
-  }
 
-  .hover-image {
-    position: absolute;
-    z-index: 1;
-    max-width: 200px; /* Adjust as needed */
+.mySlides {
+    display: none; 
+}
+
+.mySlides.active {
+    display: block; 
+}
+
+.fade {
+    opacity: 1;
+    transition: opacity 1s ease-in-out; 
 }
