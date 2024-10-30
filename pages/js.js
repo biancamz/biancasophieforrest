@@ -20,4 +20,18 @@ function showSlides() {
 
 }
 
+function showImage(elemId, imgSrc) {
+    const elem = document.getElementById(elemId);
+    const popImage = new Image();
+    popImage.src = imgSrc; // Using the provided GitHub Pages URL
+    popImage.className = "hover-image";
+    popImage.style.top = elem.getBoundingClientRect().bottom + window.scrollY + "px"; // Position below the element
+    popImage.style.left = elem.getBoundingClientRect().left + window.scrollX + "px"; // Align left with the element
+    document.body.appendChild(popImage);
+}
 
+function hideImage(elemId) {
+    const popImages = document.querySelectorAll('.hover-image');
+    popImages.forEach(img => img.remove());
+}
+  
