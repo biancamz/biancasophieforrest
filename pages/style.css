@@ -140,7 +140,7 @@ table th {
     font-size: 25px;
 }
 
-#times{
+table th #times{
     width:25%;
 }
 
@@ -151,7 +151,6 @@ table td{
         text-align: left;
         font-size: 18px;
     }
-
     
 
 td img
