@@ -26,7 +26,7 @@ body {
 
 #header{
     font-family:'Gill Sans', sans-serif;
-    color: rgb(24, 77, 201);
+    color: rgb(8, 8, 90);
     text-align: center;
     margin-bottom: 20px;
     font-size: 70px;
@@ -137,6 +137,7 @@ table th, td {
     border: 2px solid blue; 
     padding: 10px; 
     text-align: left;
+    font-size: 18px;
 }
 
 @media (max-width: 768px) {
@@ -162,6 +163,7 @@ table th, td {
     display: none;
     opacity: 0;
     transition: opacity 1s ease-in-out; 
+    color:#333;
 }
   
   .mySlides.active {
