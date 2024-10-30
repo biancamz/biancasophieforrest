@@ -46,21 +46,21 @@
     }
     </style>
 
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        document.querySelectorAll('.accordion-header').forEach(button => {
-            button.addEventListener('click', () => {
-                const content = button.nextElementSibling;
-                button.classList.toggle('active');
-
-                if (content.style.maxHeight) {
-                    content.style.maxHeight = null;
-                } else {
-                    content.style.maxHeight = content.scrollHeight + 'px';
-                }
+ <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll('.accordion-header').forEach(button => {
+                button.addEventListener('click', () => {
+                    const content = button.nextElementSibling;
+                    button.classList.toggle('active');
+    
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + 'px';
+                    }
+                });
             });
         });
-    });
 </script>
 
 </head>
@@ -92,7 +92,7 @@
 <p>Here are some frequently asked questions about Colorado Symphony concerts that are intended to help make your visit fun, memorable, and stress-free. 
 If you don’t see the answer to your question here, feel free to contact us at tickets@coloradosymphony.org or call the Box Office at (303) 623-7876. We might even add your inquiry to this list!
 
-If you still have more questions, (contact us here) -- link to contact page. </p>
+If you still have more questions, <a href="https://biancamz.github.io/biancasophieforrest/pages/contact.html">Contact us here</a> </p>
 
 <div class="accordion">
     <div class="accordion-item">
