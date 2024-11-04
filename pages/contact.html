@@ -5,136 +5,167 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://biancamz.github.io/biancasophieforrest/pages/style.css">
     <title>Contact & About</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .contact-card {
+            flex: 1 1 48%;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .contact-card h3 {
+            color: #0056b3;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 1.2em;
+            margin: 0;
+        }
+        .contact-card p {
+            margin: 5px 0;
+        }
+        .icon {
+            font-size: 1.2em;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .divider {
+            border-top: 1px solid #ddd;
+            margin: 10px 0;
+        }
+        /* Icon Styles */
+        .icon-clock::before { content: "⏰"; }
+        .icon-phone::before { content: "📞"; }
+        .icon-email::before { content: "✉️"; }
+        .icon-map::before { content: "📍"; }
+    </style>
 </head>
 <body>
     <div id="header">THE COLORADO SYMPHONY</div>
     
     <div id="navigation">
-        <nav><ul>
-        <li><a href="https://biancamz.github.io/biancasophieforrest/pages/home.html">Home</a> </li>
-        <li> <a href="https://biancamz.github.io/biancasophieforrest/pages/schedule.html">Schedule</a></li>
-        <li><a href="https://biancamz.github.io/biancasophieforrest/pages/FAQ.html">FAQ</a></li>
-        <li><a href="https://biancamz.github.io/biancasophieforrest/pages/contact.html">Contact</a></li> 
-        
-    </ul></nav>
+        <nav>
+            <ul>
+                <li><a href="https://biancamz.github.io/biancasophieforrest/pages/home.html">Home</a></li>
+                <li><a href="https://biancamz.github.io/biancasophieforrest/pages/schedule.html">Schedule</a></li>
+                <li><a href="https://biancamz.github.io/biancasophieforrest/pages/FAQ.html">FAQ</a></li>
+                <li><a href="https://biancamz.github.io/biancasophieforrest/pages/contact.html">Contact</a></li> 
+            </ul>
+        </nav>
+    </div>
 
     <div id="background">
-        <div class="bottom"> </div>
+        <div class="bottom"></div>
         <div class="middle"></div>
         <div class="hands"></div>
+    </div>
+
+    <div id="contact-us">
+        <div id="about">
+            <h3>About</h3> 
+            <header><h2>The Symphony</h2></header>
+            <p>The Colorado Symphony Association is the region’s only full-time professional orchestra committed to artistic excellence...</p>
+        </div>
+
+        <div id="mission">
+            <h3>Our Mission: The Future of Live, Symphonic Music.</h3>
+            <div id="showSlides">
+                <h4>Our Values</h4>
+                <ul>
+                    <div class="mySlides fade active">
+                        <li><em>EXCELLENCE</em> 
+                            <p>We are committed to musical and artistic excellence with a commitment to the future of symphonic music in Colorado.</p>
+                        </li>
+                    </div>
+                    <div class="mySlides fade">
+                        <li><em>SUSTAINABILITY</em>
+                            <p>We are dedicated to maintaining an orchestra of high performance standards, modeling best practices.</p>
+                        </li>
+                    </div>
+                    <div class="mySlides fade">
+                        <li><em>INNOVATION</em> 
+                            <p>We will embrace calculated risk-taking, fostering imagination, and invention in an ever-changing world of performing arts.</p>
+                        </li>
+                    </div>
+                    <div class="mySlides fade">
+                        <li><em>COMMUNITY</em>
+                            <p>We are committed to growing a culture for modern, relevant, creative music to uplift and celebrate all people.</p>
+                        </li>
+                    </div>
+                    <div class="mySlides fade">
+                        <li><em>DIVERSITY & INCLUSION</em>
+                            <p>We are committed to providing symphonic experiences that reflect and value the diversity of our community.</p>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <div id="diversity">
+            <h2>Diversity, Equity, & Inclusion Statement</h2>
+            <p>Music brings people together to inspire and unite the human spirit. The Colorado Symphony Association believes that symphonic music must be available to everyone...</p>
+        </div>
+        
+        <div id="what-we-offer">
+            <h3>What We Offer</h3>
+            <p>Each season the Colorado Symphony presents a wealth of world-class artistry...</p>
+            <img src="../img/Yumi-Jason-Sinn-1920x400-seated.jpg" alt="person 2">
+        </div>
+
+        <div class="contact-container">
+            <!-- Box Office Hours -->
+            <div class="contact-card">
+                <h3><span class="icon icon-clock"></span> Box Office Hours</h3>
+                <p>Monday – Saturday: 10:00 a.m. – 5:00 p.m.<br>Sunday: Closed</p>
+                <p><span class="bold">Phone:</span> (303) 623-7876 / (303) MAESTRO</p>
+                <p><span class="bold">E-mail:</span> tickets@coloradosymphony.org</p>
+                <div class="divider"></div>
+                <p><span class="icon icon-map"></span> <span class="bold">Address:</span> 1000 14th Street, No. 15, Denver, CO 80202</p>
+            </div>
+          
+            <!-- Holiday Closures -->
+            <div class="contact-card">
+                <h3><span class="icon icon-clock"></span> 2024/25 Holiday Closures</h3>
+                <p>Thanksgiving: Thursday, November 28, 2024</p>
+                <p>Christmas Eve: Tuesday, December 24, 2024</p>
+                <p>Christmas Day: Wednesday, December 25, 2024</p>
+                <p>New Year’s Day: Wednesday, January 1, 2025</p>
+            </div>
+          
+            <!-- Main Contact -->
+            <div class="contact-card">
+                <h3><span class="icon icon-phone"></span> Main Contact</h3>
+                <p><span class="bold">Phone:</span> (303) 308-2477</p>
+                <p><span class="bold">Email:</span> ndobreff@coloradosymphony.org</p>
+            </div>
+          
+            <!-- Administration Contact -->
+            <div class="contact-card">
+                <h3><span class="icon icon-email"></span> Administration Contact</h3>
+                <p>For donor and sponsorship inquiries, email us at <a href="mailto:giving@coloradosymphony.org">giving@coloradosymphony.org</a>.</p>
+                <p><span class="icon icon-map"></span> <span class="bold">Admin Address:</span> 1245 Champa Street, Denver, CO</p>
+            </div>
         </div>
     </div>
 
-<div id="contact-us">
-    
-
-    <div id="about"> <h3>About</h3> 
-        <header><h2>The Symphony</h2> </header>
-    
-    The Colorado Symphony Association is the region’s only full-time professional orchestra committed to artistic excellence and ensuring the future of live, symphonic music. Performing over 150 concerts annually at Boettcher Concert Hall in downtown Denver and across Colorado, your Colorado Symphony is home to eighty full-time musicians, representing more than a dozen nations, and regularly welcomes the most celebrated artists from all genres of music. Recognized as an incubator of innovation, creativity, and excellence, your Colorado Symphony continually expands its impact through education, outreach, and programming. We partner with the state’s leading musical artists, cultural organizations, corporations, foundations, sports teams, and individuals to expose diverse audiences to the power of symphonic orchestral music.
-</div>
-
-    <div id="mission">
-       
-    <h3>Our Mission: The Future of Live, Symphonic Music.</h3>
-    
-    <div id="showSlides">
-    
-    <ul>
-        <h4>Our Values</h4>
-    <div class="mySlides fade active">
-         <li><em>EXCELLENCE</em> 
-     <p> We are committed to musical and artistic excellence with a further commitment to ensuring there is a solid future for live symphonic music in Colorado.
-        </p></li></div>
-    <div class="mySlides fade">
-        <li><em>SUSTAINABILITY</em>
-    <p>We are dedicated to maintaining an orchestra of the highest performance standards, modeling best practices and balanced fiscal stewardship.
-    </p></li></div>
-    <div class="mySlides fade">
-        <li><em>INNOVATION</em> 
-    <p>We will embrace and maintain our culture of success, calculated risk-taking, fostering imagination, and invention in an ever-changing world of the performing arts.
-    </p></li></div>
-    <div class="mySlides fade">
-    <li> <em>COMMUNITY</em>
-    <p>We are committed to growing a culture for modern, relevant, creative music to uplift, unite, and celebrate all people.
-    </p></li></div>
-    <div class="mySlides fade">
-        <li><em>DIVERSITY & INCLUSION</em>
-    <p>We are committed to providing symphonic and educational experiences that celebrate our humanity, reflect and value the diversity of our community, and seek out meaningful collaborations.
-    </p></li></div>
-</ul>
-
-</div>
-</div>
-   
-
-<div id="diversity">
-    <h2>Diversity, Equity, & Inclusion Statement</h2>
-    <p>Music brings people together to inspire and unite the human spirit. The Colorado Symphony Association (CSA) believes that symphonic music must be available to everyone and that communities thrive when music is accessible to all.
-    </p>
-    The CSA is committed to being an inclusive organization where diverse perspectives are sought out and valued; and to create experiences for our audiences where all people and communities feel welcome, represented, and connected. The CSA will continuously strive to achieve greater inclusivity and equity by leading in a way that represents our art form, one of collectivism and harmony.
-    
-    The CSA believes in the dignity of all and respects a diversity of cultures, identities, orientations, heritages, beliefs, and experiences. As a cultural institution and only full-time professional symphony orchestra in the state, we recognize the power of symphonic music and believe we can bring our community together to create greater social understanding through live symphonic music.
-
-
-
-</div>
-    
-    <div id="what we offer"><h3>What We Offer</h3>
-    Each season the Colorado Symphony presents a wealth of world-class artistry performed by your critically-acclaimed orchestra, the region’s only full-time professional orchestra. We present performances and/or events almost every weekend, September through May. Concert categories include Classics, Symphony Pops, Spotlight,  Family, Holiday,  Movie at the Symphony, Alternative, and even our Summer performances, which feature numerous concerts at the historic Red Rocks Amphitheater.
-    
-    In addition to our standard concert season, we’re happy to provide plenty of other fun opportunities for events and activities. Support the symphony by participating in great annual events like the Symphony Gala and social networking opportunities through Colorado Symphony Young Professionals, the Colorado Symphony Guild, Women of Note, and more. Throughout the season you’ll also find pre and post-concert events, like Preludes & Talkbacks, that will make your concert experience extra special.
-    
-    Plus, make a donation to the Colorado Symphony and receive access to special donor events like open rehearsals, happy hours, master classes, and more.
-    
-    We offer a wide array of experiences that can involve you and your partner, or you can bring the kids for pre-concert HalfNotes activities and special events geared specifically toward their growing knowledge and love of music. With our commitment to serving the community with culturally enriching musical experiences, we hope that you will visit for any one of our special events or performances. Bring your friends—we have events and activities for everyone’s tastes!   
-
-    <br> 
-
-    <img src="../img/Yumi-Jason-Sinn-1920x400-seated.jpg" alt="person 2">
-    </div>
-
-<div id="contact"><h3>Contact us</h3>
-
-<h3>Concert Hall at the Denver Performing Arts Complex Box Office </h3>
-
-<strong>Box Office Hour </strong> <br>
-Monday – Saturday: 10:00 a.m. – 5:00 p.m. <br>
-Sunday: Closed <br>
-
-
-<strong>Phone </strong> (303) 623-7876 / (303) MAESTRO <br>
-
-<strong>E-mail</strong> tickets@coloradosymphony.org <br>
-
-<strong>Address</strong> 1000 14th Street, No. 15, Denver, CO 80202 <br>
-
-
-<strong>2024/25 Holiday Closures </strong> <br> 
-Thanksgiving: Thursday, November 28, 2024 <br> 
-
-Christmas Eve: Tuesday, December 24, 2024 <br> 
-
-Christmas Day: Wednesday, December 25, 2024 <br> 
-
-New Year’s Day: Wednesday, January 1, 2025 <br> 
-
-<strong>Colorado Symphony Administration </strong>
-Media Contact
-Nick Dobreff, Communications and Creative Director
-(303) 308-2477
-ndobreff@coloradosymphony.org
-
-<strong>Donors & Sponsors </strong>
-Send an e-mail to giving@coloradosymphony.org with questions regarding donating or becoming a sponsor.
-
-<strong>Admin Address </strong>
-1245 Champa Street, 
-
-
-</div>
-</div>
-</body>
 <script src="../pages/js.js"></script>
+</body>
 </html>
-
