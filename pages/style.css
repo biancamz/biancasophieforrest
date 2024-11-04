@@ -106,7 +106,7 @@ li em {
 }
 
 
-#about, #mission, #what\ we\ offer, #contact, #diversity {
+#about, #what\ we\ offer, #contact, #diversity {
     background: #fff;
     padding: 20px;
     padding: 15px;
@@ -115,7 +115,20 @@ li em {
     margin-bottom: 20px;
 }
 
+#mission{
+    background: #fff;
+    padding: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    
 
+}
+
+#mission h3{
+    align-content: center;
+}
 
 table {
     width: 100%; 
@@ -129,7 +142,7 @@ table th {
     padding: 10px; 
     text-align: left;
     font-size: 25px;
-    font-family:'Gill Sans', sans-serif;
+    
 }
 
 .times {
@@ -146,7 +159,7 @@ table td{
         padding: 10px; 
         text-align: left;
         font-size: 18px;
-        
+        font-family:'Gill Sans', sans-serif;
     }
     
 
@@ -179,8 +192,9 @@ td:hover img
 #showSlides {
     position: relative;
     max-width: 900px;
-    margin: auto;
     overflow: hidden;
+    font-size: 20px;
+    border:rgb(174, 30, 30);
 }
 
 .mySlides {
