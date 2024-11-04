@@ -211,6 +211,19 @@ td:hover img
     background-color: #f4f4f4;
 }
 
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Content section expands to fill the space */
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
 /* Footer Styling */
 .footer {
     background-color: #e0f0ff; /* Light blue background */
