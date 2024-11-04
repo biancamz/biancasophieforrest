@@ -129,10 +129,15 @@ table th {
     padding: 10px; 
     text-align: left;
     font-size: 25px;
+    font-family:'Gill Sans', sans-serif;
 }
 
-table th #times{
-    width:25%;
+.times {
+    width: 33%; 
+}
+
+.performances {
+    width: 67%; 
 }
 
 
@@ -141,6 +146,7 @@ table td{
         padding: 10px; 
         text-align: left;
         font-size: 18px;
+        
     }
     
 
