@@ -48,22 +48,6 @@
     }
     </style>
 
- <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            document.querySelectorAll('.accordion-header').forEach(button => {
-                button.addEventListener('click', () => {
-                    const content = button.nextElementSibling;
-                    button.classList.toggle('active');
-    
-                    if (content.style.maxHeight) {
-                        content.style.maxHeight = null;
-                    } else {
-                        content.style.maxHeight = content.scrollHeight + 'px';
-                    }
-                });
-            });
-        });
-</script>
 
 </head>
 
@@ -160,5 +144,6 @@ If you still have more questions, <a href="https://biancamz.github.io/biancasoph
         </div>
     </div>
 </div>
+<script src="js.js"></script>
 </body>
 </html>
