@@ -34,4 +34,4 @@ let slideIndex = 0;
         });
     });
   }
-    
+  accordion();

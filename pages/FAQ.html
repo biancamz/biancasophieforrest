@@ -7,23 +7,7 @@
     <link rel="stylesheet" href="https://biancamz.github.io/biancasophieforrest/pages/FAQ.css">
     <title>Document</title>
     <script src="js.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-        document.querySelectorAll('.accordion-header').forEach(button => {
-            button.addEventListener('click', () => {
-                const content = button.nextElementSibling;
-                button.classList.toggle('active');
 
-                if (content.style.maxHeight) {
-                    content.style.maxHeight = null;
-                } else {
-                    content.style.maxHeight = content.scrollHeight + 'px';
-                }
-            });
-        });
-    });
-
-    </script>
 
 
 </head>
