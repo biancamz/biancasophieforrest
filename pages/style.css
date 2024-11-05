@@ -46,6 +46,7 @@ nav ul {
     display: flex;
     justify-content: center;
     background-color: rgb(234, 228, 220);
+    
 }
 
 nav li {
@@ -55,9 +56,10 @@ nav li {
 }
 
 nav a {
-    font-size: 40 px;
+    font-size: 50 px;
     color: rgb(174, 30, 30);
     transition: color 0.3s;
+    font-family:'Gill Sans', sans-serif;
 }
 
 nav a:hover {
