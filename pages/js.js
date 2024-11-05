@@ -18,7 +18,7 @@ let slideIndex = 0;
     }
 
     showSlides();
-  
+  function accordion(){
     document.addEventListener("DOMContentLoaded", () => {
         document.querySelectorAll('.accordion-header').forEach(button => {
             button.addEventListener('click', () => {
@@ -33,3 +33,5 @@ let slideIndex = 0;
             });
         });
     });
+  }
+    
