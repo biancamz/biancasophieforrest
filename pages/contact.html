@@ -6,6 +6,27 @@
     <link rel="stylesheet" href="https://biancamz.github.io/biancasophieforrest/pages/style.css?v=1.1">
     <title>Contact & About</title>
     <style>
+        /* Centered Strong Header for "About the Symphony" */
+h2.about-header {
+    color: #003366; /* Dark blue color for a strong look */
+    font-size: 2em; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-aligns the header */
+    margin-top: 20px; /* Adds space above the header */
+    margin-bottom: 10px; /* Adds space below the header */
+}
+
+/* Centered Paragraph Text */
+.about-text {
+    text-align: center; /* Center-aligns the paragraph */
+    font-size: 1em; /* Standard font size */
+    color: #333; /* Text color */
+    line-height: 1.6; /* Improves readability */
+    margin: 0 auto 20px; /* Centering the paragraph with space below */
+    max-width: 700px; /* Limits the width for better readability */
+}
+
+
         .content-container {
             width: 100%;
             margin: 0 auto;
@@ -56,7 +77,98 @@
         .icon-phone::before { content: "📞"; }
         .icon-email::before { content: "✉️"; }
         .icon-map::before { content: "📍"; }
+
+
+
+
+        /* General Content Container */
+        .content-container {
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #about-mission {
+            max-width: 100%;
+            margin: 0 auto 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Heading Styles */
+        #about-mission h2, #about-mission h3 {
+            color: #0056b3;
+            font-weight: bold;
+        }
+
+        #about-mission h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        #about-mission h3 {
+            font-size: 1.5em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        #about-mission h4 {
+            color: #333;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        /* Paragraph Styling for Consistency */
+        #about-mission p {
+            font-size: 1em;
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        /* Mission Card Styling for Each Value */
+        .mission-card {
+            background-color: #f7f7f7;
+            padding: 15px;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        .mission-card em {
+            color: #c0392b; /* Highlighted color for emphasis */
+            font-weight: bold;
+            font-style: normal;
+            display: block;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .mission-card p {
+            color: #666;
+            margin: 0;
+        }
+
+        /* Optional Hover Effect for Mission Card */
+        .mission-card:hover {
+            background-color: #f0f0f0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+        #showSlides h4 {
+    
+    text-align: center; /* Center-aligns the header */
+}
+        
+
+
     </style>
+
+
 </head>
 <body>
     <div id="header">THE COLORADO SYMPHONY</div>
@@ -78,42 +190,34 @@
         <div class="hands"></div>
     </div>
 
+    <h2 class="about-header">About the Symphony</h2>
+<p class="about-text">The Colorado Symphony Association is the region’s only full-time professional orchestra committed to artistic excellence...</p>
+
+
     <div class="content-container">
         <div id="contact-us">
-            <div id="about">
-                <h3>About</h3> 
-                <header><h2>The Symphony</h2></header>
-                <p>The Colorado Symphony Association is the region’s only full-time professional orchestra committed to artistic excellence...</p>
-            </div>
-
-            <div id="mission">
+            <div id="about-mission">
                 <h3>Our Mission: The Future of Live, Symphonic Music.</h3>
                 <div id="showSlides">
-                    <h4>Our Values</h4>
-                    <ul>
-                        <li class="mySlides fade active">
-                            <em>EXCELLENCE</em> 
+                    <ul class="slide-deck">
+                        <li class="mySlides fade active mission-card">
+                            <em>EXCELLENCE</em>
                             <p>We are committed to musical and artistic excellence with a commitment to the future of symphonic music in Colorado.</p>
                         </li>
-                        <li class="mySlides fade">
+                        <li class="mySlides fade mission-card">
                             <em>SUSTAINABILITY</em>
                             <p>We are dedicated to maintaining an orchestra of high performance standards, modeling best practices.</p>
                         </li>
-                        <li class="mySlides fade">
-                            <em>INNOVATION</em> 
+                        <li class="mySlides fade mission-card">
+                            <em>INNOVATION</em>
                             <p>We will embrace calculated risk-taking, fostering imagination, and invention in an ever-changing world of performing arts.</p>
-                        </li>
-                        <li class="mySlides fade">
-                            <em>COMMUNITY</em>
-                            <p>We are committed to growing a culture for modern, relevant, creative music to uplift and celebrate all people.</p>
-                        </li>
-                        <li class="mySlides fade">
-                            <em>DIVERSITY & INCLUSION</em>
-                            <p>We are committed to providing symphonic experiences that reflect and value the diversity of our community.</p>
                         </li>
                     </ul>
                 </div>
             </div>
+            
+            
+            
             
 
             <div id="diversity">
@@ -122,13 +226,13 @@
             </div>
             
             <div id="what-we-offer">
-                <h3>What We Offer</h3>
-                <p>Each season the Colorado Symphony presents a wealth of world-class artistry...</p>
+                <!-- <h3>What We Offer</h3>
+                <p>Each season the Colorado Symphony presents a wealth of world-class artistry...</p> -->
                 <img src="../img/Yumi-Jason-Sinn-1920x400-seated.jpg" alt="person 2">
             </div>
-            <div class="contact-banner">
+            <!-- <div class="contact-banner">
                 <h3>Contact</h3>
-            </div>
+            </div> -->
             <div class="contact-container">
                 
                 <!-- Box Office -->

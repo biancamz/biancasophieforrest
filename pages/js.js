@@ -14,7 +14,7 @@ let slideIndex = 0;
 
         slides[slideIndex].classList.add("active");
 
-        setTimeout(showSlides, 3000);
+        setTimeout(showSlides, 4000);
     }
 
     showSlides();
