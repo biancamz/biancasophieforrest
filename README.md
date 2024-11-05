@@ -1,6 +1,4 @@
 # biancasophieforrest
 
-this is a readme file
-
-project info
+Welcome to our site!
 
