@@ -53,7 +53,7 @@ nav li {
 }
 
 nav a {
-    font-size: 18px; /* Adjust this value as desired */
+    font-size: 40px; /* Adjust this value as desired */
     color: rgb(174, 30, 30);
     transition: color 0.3s;
     font-family: 'Gill Sans', sans-serif;
