@@ -41,7 +41,7 @@ h1 {
 }
 
 #navigation nav ul {
-    font-size: 40px; /* Adjust this value as desired */
+    font-size: 18px; /* Adjust this value as desired */
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -49,13 +49,13 @@ h1 {
 }
 
 nav li {
-    font-size: 40px; /* Adjust this value as desired */
+    font-size: 18px; /* Adjust this value as desired */
     margin: 0 15px;
     border: none;
 }
 
 nav a {
-    font-size: 40px; /* Adjust this value as desired */
+    font-size: 18px; /* Adjust this value as desired */
     color: rgb(174, 30, 30);
     transition: color 0.3s;
     font-family: 'Gill Sans', sans-serif;
