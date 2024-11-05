@@ -16,7 +16,7 @@ html {
 body {
     font-family:'Times New Roman', Times, serif;
     background-color: #f3f2ee;
-    color: #333;
+    color: #333333;
     line-height: 1.6;
     padding: 40px;
     z-index: 2;
@@ -56,7 +56,7 @@ nav li {
 }
 
 nav a {
-    font-size: 60 px;
+    font-size: 100 px;
     color: rgb(174, 30, 30);
     transition: color 0.3s;
     font-family:'Gill Sans', sans-serif;
