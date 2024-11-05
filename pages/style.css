@@ -40,31 +40,29 @@ h1 {
     margin-bottom: 20px;
 }
 
-#navigation 
-nav ul {
+#navigation nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
     background-color: rgb(234, 228, 220);
-    
 }
 
 nav li {
     margin: 0 15px;
     border: none;
-
 }
 
 nav a {
-    font-size: 100 px;
+    font-size: 18px; /* Adjust this value as desired */
     color: rgb(174, 30, 30);
     transition: color 0.3s;
-    font-family:'Gill Sans', sans-serif;
+    font-family: 'Gill Sans', sans-serif;
 }
 
 nav a:hover {
     color: #fff;
 }
+
 
 
 
