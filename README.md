@@ -2,4 +2,3 @@
 
 Welcome to our site!
 
-# biancasophie
