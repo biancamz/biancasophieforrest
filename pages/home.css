@@ -1,0 +1,81 @@
+.parallax {
+    background-image: url("../img/86687e178183021.64e3ca220bff4.gif"), url("../img/76b790178183021.64e3ca20d1c07.gif");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#section1 {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff9c4; 
+    color: black;
+}
+
+.statement{
+    text-align: center;
+}
+
+.first-row, .second-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 20px;
+
+}
+
+.card {
+    position: relative;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: background-color 0.3s;
+}
+
+.card:hover .card-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card-title {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-text {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.square-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.image-break {
+    width: 100%;
+    margin: 40px 0;
+}

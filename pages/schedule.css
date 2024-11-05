@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    background-color: #fff;
+}
+
+table th.times, table td:first-child {
+    width: 25%;
+    vertical-align: middle;
+    
+}
+
+table th.performances, table td:last-child {
+    width: 75%;
+    vertical-align: top;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table td h3 {
+    color: #0367a1; 
+    font-weight: bold;
+    margin: 0;
+}

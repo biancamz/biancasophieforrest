@@ -1,0 +1,127 @@
+h2.about-header {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about-text {
+    text-align: center;
+    font-size: 1em;
+}
+
+
+.content-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contact-banner{
+    background-color: #e0f0ff;
+    text-align: center;
+}
+.contact-card {
+    flex: 1 1 48%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-card h3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.2em;
+    margin: 0;
+    color: #0367a1;
+}
+.contact-card p {
+    margin: 5px 0;
+}
+.icon {
+    font-size: 1.2em;
+}
+.bold {
+    font-weight: bold;
+}
+.divider {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.icon-clock::before { content: "⏰"; }
+.icon-phone::before { content: "📞"; }
+.icon-email::before { content: "✉️"; }
+.icon-map::before { content: "📍"; }
+
+
+#about-mission {
+    max-width: 100%;
+    margin: 0 auto 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+#about-mission h2, #about-mission h3 {
+    font-weight: bold;
+}
+
+#about-mission h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+#about-mission h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#about-mission h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#about-mission p {
+    font-size: 1em;
+    color: #333333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.mission-card {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.mission-card em {
+    font-weight: bold;
+    font-style: normal;
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #0367a1;
+}
+
+.mission-card p {
+    color: #666;
+    margin: 0;
+}
